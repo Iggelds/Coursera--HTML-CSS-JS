@@ -1,0 +1,36 @@
+table.cld{
+	color: #06425C;
+	border: 3px solid black;
+	border-spacing: 0;
+}
+
+tr:nth-child(odd){
+	background: #F2F2F2;
+}
+
+tr:nth-child(even){
+	background: #CDBB79;
+}
+
+.cld caption{
+	text-transform: uppercase;
+	background-color: #666666;
+	color: #FFFFFF;
+	font-size: 150%;
+}
+
+.cld th, .cld td{
+	margin: 2px;
+	padding-bottom: 2px;
+}
+
+th {
+	text-align: center;
+	background: #FFFFFF;
+}
+
+.cal td{
+	width: 75px;
+	height: 75px;
+	vertical-align: top;
+}

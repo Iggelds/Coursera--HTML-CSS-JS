@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+    <script src="js/form.js"></script>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>Personal information</legend>
+        <label for="name">name</label>
+        <input type="text" id="name" name="name" value="Aboobakar"></br>
+        <label>Preferred E-mail
+        <input type="email" id="email_addr" name="email1" placeholder="me@me.com" required></label></br>
+        <label>Confirm E-mail
+        <input type="email" id="email_repeat" name="email2" placeholder="me@me.com" required onchange="return check()"></label></br>
+        <label for="birth">Birth</label>
+        <input type="date" id="birth" value="birth"></br>
+        <input type="text" name="Zip code" pattern="[0-9]{5}" required></br>
+        <input type="submit" value="Click here!"></br>
+        </fieldset>
+    </form>
+</body>
+</html>

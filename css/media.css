@@ -1,0 +1,47 @@
+main{
+    width: 95%;
+    margin: 0 auto;
+}
+@media screen and (min-width:320px) and (max-width:575px){
+html, body{
+    background-color: #ff0000;
+}}
+
+@media screen and (min-width:576px) and (max-width:1199px){
+    html, body{
+        background-color: #0099ff;
+    }}
+
+@media screen and (min-width:1200px){
+    html, body{
+        background-color: #11ff00;
+    }}
+
+body{
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #404040;
+}
+
+h1{
+    font-size: 300%;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:600px){
+
+.column{
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+}
+}
